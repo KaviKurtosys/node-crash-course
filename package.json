@@ -1,0 +1,22 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "This is a small crash course on node",
+  "main": "http.js",
+  "scripts": {
+    "develop": "nodemon http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaviKurtosys/node-crash-course.git"
+  },
+  "author": "Kavi Kistan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaviKurtosys/node-crash-course/issues"
+  },
+  "homepage": "https://github.com/KaviKurtosys/node-crash-course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

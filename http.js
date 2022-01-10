@@ -14,9 +14,7 @@ const server = http.createServer((req, res) => {
     if (req.url === '/user'){
         res.write('Welcome user jhonson');
         res.end();
-    }
-    
-    
+    }    
 });
 
 server.listen(3000, () => console.log('Server is up and running'));
