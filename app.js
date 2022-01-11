@@ -1,4 +1,4 @@
-const sayName = require('./sayName');
+const getUserInfo = require('./sayName');
 
-console.log(sayName.sayName);
-console.log(sayName.sayAddress);
+getUserInfo.sayName();
+getUserInfo.sayAddress();
