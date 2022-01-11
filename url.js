@@ -6,3 +6,4 @@ const parsedUrl = url.parse(address, true);
 
 console.log(parsedUrl.host);
 console.log(parsedUrl.pathname);
+console.log(parsedUrl.query.month);
