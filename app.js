@@ -1,1 +1,3 @@
-console.log(5 + 5);
+const sayName = require('./sayName');
+
+sayName();
