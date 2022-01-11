@@ -1,3 +1,4 @@
 const sayName = require('./sayName');
 
-sayName();
+console.log(sayName.sayName);
+console.log(sayName.sayAddress);

@@ -2,4 +2,9 @@ const sayName = () => {
     console.log('My name is Kavi');
 }
 
-module.exports = sayName;
+const sayAddress = () => {
+    console.log('URD');
+}
+
+module.exports.sayName = sayName;
+module.exports.sayAddress = sayAddress;
